@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .orange
+        view.backgroundColor = UIColor(red: 6.0/255, green: 4.0/255, blue: 31.0/255, alpha: 1)
         setupTimerViewsConstaints()
         setupActionViews()
         
@@ -101,9 +101,9 @@ class ViewController: UIViewController {
         
         NSLayoutConstraint.activate([
             ActionView.topAnchor.constraint(equalTo: TimerView.bottomAnchor),
-            ActionView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            ActionView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            ActionView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
+            ActionView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor),
+            ActionView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor),
+            ActionView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor)
             ])
     }
     
