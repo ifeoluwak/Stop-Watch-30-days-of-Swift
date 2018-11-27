@@ -8,4 +8,4 @@ This project is based on his own example but without the use storyboards, only u
 
 ## Screen Shot ##
 
-![Alt text](https://github.com/allenwong/30DaysofSwift/blob/master/Stop-Watch-30-days-of-Swift/ScreenShot.png)
+![StopWatch screenshot](https://github.com/ifeoluwak/Stop-Watch-30-days-of-Swift/blob/master/ScreenShot.png)
